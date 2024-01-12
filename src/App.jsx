@@ -13,14 +13,7 @@ function App() {
 export default App;
 
 
-// Recipe - recipe: array
-// RecipeInfo - text: string; 
-//              icon: element;
-//              time: string;
-//              servings: number;
-//              calories: number;
-//              img: string;
-//              difficulty: number;
+
 
 
 
