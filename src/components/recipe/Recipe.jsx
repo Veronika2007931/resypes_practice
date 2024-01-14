@@ -7,13 +7,13 @@ import {RecipeInfo} from "../recipe/RecipeInfo.jsx"
 export function Recipe({recipe}){
    return (
     <ul>
-       {recipe.map(({name, time, servings, colories, image, difficulty}) => {
+       {recipe.map(({name, time, servings, calories, image, difficulty}) => {
             return <RecipeInfo
             key = {name}
             name = {name}
             time = {time}
             servings = {servings}
-            colories = {colories}
+            calories = {calories}
             img = {image}
             difficulty = {difficulty}
             iconTime = {BsAlarm}
