@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import {Difficulty} from "./Difficulty.jsx"
 import {Information, Image, List, Item} from "./RecipeInfo.styled.jsx"
 
 export function RecipeInfo({name, time, servings, calories, img, difficulty, iconTime: IconTime, iconCalories: IconCalories,iconPie: IconPie}){
@@ -13,8 +14,7 @@ export function RecipeInfo({name, time, servings, calories, img, difficulty, ico
          <Item> <IconTime /> {time} хв</Item>
          </Information>
         
-       
-         <p>Difficulty: {difficulty}</p>
+     <Difficulty/>
     </List>
   )
 }

@@ -1,6 +1,7 @@
 import { HiOutlineChartBar, HiOutlineChartPie } from 'react-icons/hi';
 import { BsAlarm } from 'react-icons/bs';
 import React from 'react';
+
 import PropTypes from 'prop-types';
 
 import {RecipeInfo} from "../recipe/RecipeInfo.jsx"
