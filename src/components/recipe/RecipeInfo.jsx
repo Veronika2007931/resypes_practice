@@ -14,7 +14,7 @@ export function RecipeInfo({name, time, servings, calories, img, difficulty, ico
          <Item> <IconTime /> {time} хв</Item>
          </Information>
         
-     <Difficulty/>
+     <Difficulty difficulty={difficulty}/>
     </List>
   )
 }
