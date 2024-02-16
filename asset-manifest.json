@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/resypes_practice/static/css/main.f855e6bc.css",
+    "main.js": "/resypes_practice/static/js/main.02689c92.js",
+    "index.html": "/resypes_practice/index.html",
+    "main.f855e6bc.css.map": "/resypes_practice/static/css/main.f855e6bc.css.map",
+    "main.02689c92.js.map": "/resypes_practice/static/js/main.02689c92.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.02689c92.js"
+  ]
+}
