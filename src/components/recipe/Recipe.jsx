@@ -5,8 +5,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import {RecipeInfo} from "../recipe/RecipeInfo.jsx"
+import {Section} from "./RecipeInfo.styled"
+
 export function Recipe({recipe}){
    return (
+      <Section>
     <ul>
        {recipe.map(({name, time, servings, calories, image, difficulty}) => {
             return <RecipeInfo
@@ -23,6 +26,7 @@ export function Recipe({recipe}){
             />
        })}
     </ul>
+    </Section>
    )
 }
 

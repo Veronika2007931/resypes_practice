@@ -8,7 +8,7 @@ export const Image = styled.img`
 `
 export const Information = styled.div`
     display: flex;
-    background-color: #ffed7853;
+    background-color: #fdf7f4;
     margin:2px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -27,4 +27,8 @@ export const List = styled.li`
   display: flex;
   flex-direction: column;
   align-items: center;
+ 
+`
+export const Section = styled.section`
+    background-color:#ffed7853;
 `
